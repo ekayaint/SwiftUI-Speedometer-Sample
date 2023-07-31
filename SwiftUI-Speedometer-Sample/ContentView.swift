@@ -19,6 +19,17 @@ struct ContentView: View {
     }
 }
 
+struct Home : View {
+    let colors = [Color("Color1"), Color("Color2")]
+    @State var progress : CGFloat = 0
+    
+    var body: some View{
+        VStack{
+            
+        }
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
